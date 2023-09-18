@@ -1,28 +1,27 @@
 ---
-title: "Iron Detailing"
-subtitle: "Mobile automotive detailing serving Torrance, South Bay, and surrounding areas. Locally owned & operated."
-image: /img/home-jumbotron.jpg
+title: "Paving Pros"
+subtitle: "Your All-in-One Solution for Premium Paving & Construction"
+image: /img/santos-pavers-1.jpeg
 blurb:
-    heading: "What does Iron Detailing do?"
-    text: "We offer mobile automotive detailing. We'll bring our supplies and equipment to wherever you are to service your car, truck, van, bus, train, or whatever 
-    vehicle you have. All we need is electrical and hose outlets, and we can service your vehicle."
+    heading: "What does Santos Paving Pros do?"
+    text: "At Paving Pros, we specialize in a wide range of services including masonry, concrete, pavers, brickwork, and landscaping. Our highly trained staff is dedicated to delivering exceptional service at competitive prices, offering both repair and new installation solutions tailored to your needs."
 intro:
     heading: "Services we offer"
-    text: "We offer several high quality detailing packages to help you clean, decontaminate, and protect your vehicle."
+    text: "At Paving Pros, we specialize in affordable masonry, concrete, landscaping, and hardscaping services, offering both repairs and new installations with unmatched expertise."
 products1:
-    - heading: "Steel Detail"
-      text: "Full detail inside and out, 2-step paint decontamination, tire shine, plastic and vinyl recovery, and ceramic hand wax application. Optional up-charge for interior shampoo."
-    - heading: "Iron Detail"
-      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and hand wax application. Optional up-charge for interior shampoo."
+    - heading: "Pavers"
+      text: "Utilizing a combination of design innovation and premium materials, we transform landscapes into functional and aesthetic masterpieces. From intricate pathways to expansive patios, our work stands as a testament to timeless beauty and resilience."
+    - heading: "Masonry"
+      text: "Elevate your projects with our expert masonry services. From timeless brickwork to stunning stone pavers, our skilled team specializes in crafting durable, eye-catching structures."
 products2:
-    - heading: "Carbon Detail"
-      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and spray wax application. Optional up-charge for interior shampoo."
-    - heading: "Express Detail"
-      text: "Regular car wash, a QUICK vacuum, and a QUICK interior wipe down."
+    - heading: "Stone Walls"
+      text: "Our stone walls are more than just structures; they're enduring works of art. Elevate your property with the timeless beauty of natural stone. Whether it's a charming garden border, a sturdy retaining wall, or a stunning focal point, our expert craftsmen transform stone into enduring elegance."
+    - heading: "Concrete"
+      text: "Discover the strength and versatility of concrete with our expert services. From solid foundations to decorative surfaces, we specialize in delivering concrete solutions that endure and impress. Whether it's a sturdy base for your project or a polished finish to elevate your space, our team combines craftsmanship and precision to bring your vision to life."
 products3:
-    - heading: "Exterior Detail"
-      text: "Full detail outside ONLY, paint decontamination, plastic and Vinyl recovery, and spray wax application. Optional up-charges for hand wax upgrade and paint decontamination upgrade."
-    - heading: "Interior Detail"
-      text: "Full detail inside ONLY! Optional up-charge for interior shampoo. "
+    - heading: "Landscape and Hardscape"
+      text: "Whether it's the soft touch of lush greenery, the structural beauty of stone pathways, or the elegant expanse of patios, our team ensures a harmonious blend of the natural and the built environment, turning your vision into a tangible reality."
+    - heading: "Additions and Repairs"
+      text: "Specializing in both additions and repairs, we bring expertise to hardscape, pavers, and masonry projects. Whether it's expanding an existing structure or restoring it to its former glory, our commitment is to deliver precision, quality, and lasting beauty in every job."
 ---
 
