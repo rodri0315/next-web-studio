@@ -2,20 +2,21 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import metaData from '../data/meta.json'
 
-export default function Nav({logo}) {
+export default function Nav({ logo }) {
   const router = useRouter()
-  const slug = router.pathname.substr(1)
+  const slug = router.pathname.substring(1)
   const navStyle = "overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative"
   return (
-    <nav 
+    <nav
       className={`${navStyle} on-${slug}`}>
       <a href="/" className="pa3 db mr4 h-100 w3 flex-none">
-      <img src={logo} alt="Iron Details logo" className="br0 db mb0 w-100"/>
+        <img src={logo} alt="Iron Details logo" className="br0 db mb0 w-100" />
       </a>
-      <ul className="flex b grey-3">
+      <ul className="flex b grey-3 flex-wrap">
         {
           metaData.menus.map(m => {
-            const mcls = m.url.substr(1)
+            const mcls = m.url.substring(1)
+
             return (
               <li className={mcls} key={m.page}>
                 <Link href={m.url}>
