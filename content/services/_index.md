@@ -1,8 +1,8 @@
 ---
-title: Iron Detailing Services
-subtitle:  Mobile automotive detailing wherever you are for whatever vehicle you have
+title: Santos Paving Pros Services
+subtitle:  Specialized Services in Hardscape, Pavers, and Masonry
 type: products
-image: /img/services-jumbotron.jpg
+image: /img/santos-pavers-2.jpeg
 heading: Detailing Packages
 description: >-
   We offer several high quality detailing packages to help you clean, decontaminate, and protect your vehicle.
