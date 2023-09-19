@@ -2,13 +2,8 @@
   "logo": "/img/spp-logo.jpeg",
   "menus": [
     {
-      "page": "Call or Text to Book (323) 944-7238",
-      "url": "tel:3239447238"
-    },
-    {
-      "page": "Book Online",
-      "target": "_blank",
-      "url": "https://squareup.com/appointments/book/afwc68r654y6i1/L8VCJCD01JR06/services"
+      "page": "Call or Text (919)428-5063",
+      "url": "tel:9194285063"
     },
     {
       "page": "Our Services",
