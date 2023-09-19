@@ -13,13 +13,13 @@ export default function Meta() {
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon/favicon-32x32.png"
+        href="/favicon/fav-logo-square-32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon/favicon-16x16.png"
+        href="/favicon/fav-logo-square-16.png"
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link
@@ -47,7 +47,7 @@ export default function Meta() {
       <meta name="twitter:title" content={HOME_OG_TITLE} />
       <meta name="twitter:description" content={HOME_OG_DESC} />
       <meta name="twitter:image" content={HOME_OG_IMAGE_URL} />
-      
+
     </Head>
   )
 }

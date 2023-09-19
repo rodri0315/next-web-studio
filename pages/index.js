@@ -17,26 +17,22 @@ export default function Index({ homeData, posts }) {
         <Head>
           <title>Home | {CMS_NAME}</title>
         </Head>
-        <Jumbotron 
+        <Jumbotron
           title={homeData.title}
           subtitle={homeData.subtitle}
           imageUrl={homeData.image}
         />
-        <ShortText 
+        <ShortText
           heading={homeData.blurb.heading}
           text={homeData.blurb.text}
         />
-        <TwoUpNoButton 
-          intro={homeData.intro}
+        <TwoUpNoButton
+          intro={""}
           products={homeData.products1}
         />
-        <TwoUpNoButton 
+        <TwoUpButton
           intro=""
           products={homeData.products2}
-        />
-        <TwoUpButton 
-          intro=""
-          products={homeData.products3}
         />
       </Layout>
     </>
