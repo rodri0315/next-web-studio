@@ -1,13 +1,13 @@
 ---
-title: "Paving Pros"
+title: "Santos Paving Pros"
 subtitle: "Your All-in-One Solution for Premium Paving & Construction"
 image: /img/santos-pavers-1.jpeg
 blurb:
     heading: "What does Santos Paving Pros do?"
-    text: "At Paving Pros, we specialize in a wide range of services including masonry, concrete, pavers, brickwork, and landscaping. Our highly trained staff is dedicated to delivering exceptional service at competitive prices, offering both repair and new installation solutions tailored to your needs."
+    text: "At Santos Paving Pros, we specialize in a wide range of services including masonry, concrete, pavers, brickwork, and landscaping. Our highly trained staff is dedicated to delivering exceptional service at competitive prices, offering both repair and new installation solutions tailored to your needs."
 intro:
     heading: "Services we offer"
-    text: "At Paving Pros, we specialize in affordable masonry, concrete, landscaping, and hardscaping services, offering both repairs and new installations with unmatched expertise."
+    text: "At Santos Paving Pros, we specialize in affordable masonry, concrete, landscaping, and hardscaping services, offering both repairs and new installations with unmatched expertise."
 products1:
     - heading: "Pavers"
       text: "Utilizing a combination of design innovation and premium materials, we transform landscapes into functional and aesthetic masterpieces. From intricate pathways to expansive patios, our work stands as a testament to timeless beauty and resilience."
