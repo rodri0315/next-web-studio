@@ -5,28 +5,33 @@ import Jumbotron from '../components/jumbotron'
 import Pricing from '../components/pricing'
 import PricingBlocksOnly from '../components/pricing-block-only'
 
-import { getPageData } from '../lib/api'
+import { getHomePageData, getPageData } from '../lib/api'
 import { CMS_NAME } from '../lib/constants'
+import TwoUpNoButton from '../components/2-up-no-button'
 
-export default function ProductsPage({page}) {
+export default function ProductsPage({ homeData, page }) {
   return (
     <>
       <Layout>
         <Head>
           <title>Services | {CMS_NAME}</title>
         </Head>
-        <Jumbotron 
+        <Jumbotron
           title={page.title}
           subtitle={page.subtitle}
           imageUrl={page.image}
         />
-        <Pricing 
-          heading={page.pricing.heading}
-          description={page.pricing.description}
-          plans={page.pricing.plans}
+        <TwoUpNoButton
+          intro={homeData.intro}
+          products={homeData.products1}
         />
-        <PricingBlocksOnly 
-          plans={page.pricing2.plans}
+        <TwoUpNoButton
+          intro=""
+          products={homeData.products2}
+        />
+        <TwoUpNoButton
+          intro=""
+          products={homeData.products3}
         />
       </Layout>
     </>
@@ -35,7 +40,8 @@ export default function ProductsPage({page}) {
 
 export async function getStaticProps() {
   const page = getPageData('services')
+  const homeData = getHomePageData()
   return {
-    props: { page },
+    props: { homeData, page },
   }
 }
